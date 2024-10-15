@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "PYmSZFoCpMENDTla+yRLZw6o2Caz45nTHc9LEPNMCVUdQZByhEGFh/NVFdXmXYGMn7OfoxR8ZYIvOSXSny7s3Q==",
+  "dgSpecHash": "vkCAf4dHccqCXr146hShpnBHNFxng9OPQKRQbEeL4JEntlVKzg11zTV/+AOaem6eQb1l3tkGZyYB2r5B1Jkfkg==",
   "success": true,
   "projectFilePath": "C:\\Users\\meeran\\source\\repos\\WebApplicationWebAppCheckMarx\\WebApplicationWebAppCheckMarx.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\meeran\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
+    "C:\\Users\\meeran\\.nuget\\packages\\anglesharp.css\\0.17.0\\anglesharp.css.0.17.0.nupkg.sha512",
+    "C:\\Users\\meeran\\.nuget\\packages\\htmlsanitizer\\8.1.870\\htmlsanitizer.8.1.870.nupkg.sha512",
     "C:\\Users\\meeran\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\meeran\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\meeran\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\meeran\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\meeran\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\meeran\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
   ],
   "logs": []

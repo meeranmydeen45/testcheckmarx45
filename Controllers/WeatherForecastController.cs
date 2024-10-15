@@ -1,3 +1,4 @@
+using Ganss.Xss;
 using Microsoft.AspNetCore.Mvc;
 using WebApplicationWebAppCheckMarx.Models;
 
@@ -36,6 +37,19 @@ namespace WebApplicationWebAppCheckMarx.Controllers
             {
                 return BadRequest("Invalid request data.");
             }
+
+            HtmlSanitizer sanitizer = new HtmlSanitizer();
+            approvalRequest.Description = sanitizer.Sanitize(approvalRequest.Description);
+            approvalRequest.PONumber = sanitizer.Sanitize(approvalRequest.PONumber);
+
+            approvalRequest.Items.ForEach(item =>
+            {
+                item.Comment = sanitizer.Sanitize(item.Comment);
+                item.DeliveryAddress = sanitizer.Sanitize(item.DeliveryAddress);
+                item.Supplier = sanitizer.Sanitize(item.Supplier);
+                item.VendorId = sanitizer.Sanitize(item.VendorId);
+            });
+
 
             return Ok("Completed");
         }
