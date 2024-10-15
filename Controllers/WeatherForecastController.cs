@@ -31,6 +31,7 @@ namespace WebApplicationWebAppCheckMarx.Controllers
         [HttpPost("request")]
         [ProducesResponseType(204)]
         [ProducesResponseType(typeof(ErrorResponse), 500)]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateNewApprovalRequest([FromBody] NewApprovalRequest approvalRequest)
         {
             if (approvalRequest == null || !ModelState.IsValid)
