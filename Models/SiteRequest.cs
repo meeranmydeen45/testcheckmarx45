@@ -5,7 +5,7 @@ namespace WebApplicationWebAppCheckMarx.Models
     public class SiteRequest
     {
         public long PlantId { get; set; }
-        public int ApprovalRequestTypeId { get; set; }
+       // public int ApprovalRequestTypeId { get; set; }
         //public string Description { get; set; }
         public decimal? Freight { get; set; }
         public decimal? MarkupPercentage { get; set; }
