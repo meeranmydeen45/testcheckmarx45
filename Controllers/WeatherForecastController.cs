@@ -31,10 +31,9 @@ namespace WebApplicationWebAppCheckMarx.Controllers
         [HttpPost("request")]
         [ProducesResponseType(204)]
         [ProducesResponseType(typeof(ErrorResponse), 500)]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreateNewApprovalRequest([FromBody] NewApprovalRequest approvalRequest)
+        public async Task<IActionResult> AllSites([FromBody] SiteRequest siteRequest)
         {
-            if (approvalRequest == null || !ModelState.IsValid)
+            if (siteRequest == null || !ModelState.IsValid)
             {
                 return BadRequest("Invalid request data.");
             }

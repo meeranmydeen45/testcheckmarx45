@@ -2,7 +2,7 @@
 
 namespace WebApplicationWebAppCheckMarx.Models
 {
-    public class NewApprovalRequest
+    public class SiteRequest
     {
         public long PlantId { get; set; }
         public int ApprovalRequestTypeId { get; set; }
@@ -11,10 +11,10 @@ namespace WebApplicationWebAppCheckMarx.Models
         public decimal? MarkupPercentage { get; set; }
        // public string PONumber { get; set; }
         public byte Status { get; set; }
-        public List<NewApprovalRequestEquipmentItem> Items { get; set; }
+        public List<SiteChildRequest> Items { get; set; }
     }
 
-    public class NewApprovalRequestEquipmentItem
+    public class SiteChildRequest
     {
         public long CartId { get; set; }
         public DateTime RequestDeliveryDate { get; set; }
