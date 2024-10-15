@@ -28,7 +28,7 @@ namespace WebApplicationWebAppCheckMarx.Controllers
             return Ok("Completed");
         }
 
-        [HttpPost("savePoint")]
+        [HttpGet("savePoint")]
         [ProducesResponseType(204)]
         [ProducesResponseType(typeof(ErrorResponse), 500)]
         public async Task<IActionResult> AllSites([FromBody] SiteRequest siteRequest)
