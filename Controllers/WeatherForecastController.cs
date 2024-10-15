@@ -28,7 +28,7 @@ namespace WebApplicationWebAppCheckMarx.Controllers
             return Ok("Completed");
         }
 
-        [HttpGet("savePoint")]
+        [HttpPost("savePoint")]
         [ProducesResponseType(204)]
         [ProducesResponseType(typeof(ErrorResponse), 500)]
         public async Task<IActionResult> AllSites([FromBody] SiteRequest siteRequest)
@@ -38,6 +38,15 @@ namespace WebApplicationWebAppCheckMarx.Controllers
                 return BadRequest("Invalid request data.");
             }
 
+            return Ok("Completed");
+        }
+
+        [HttpPost("request/{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(typeof(ErrorResponse), 500)]
+        public async Task<IActionResult> AllSitesData(int id)
+        {
+           
             return Ok("Completed");
         }
     }

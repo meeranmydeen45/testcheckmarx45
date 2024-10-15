@@ -27,3 +27,7 @@ C:\Users\meeran\source\repos\WebApplicationWebAppCheckMarx\bin\Debug\net8.0\Newt
 C:\Users\meeran\source\repos\WebApplicationWebAppCheckMarx\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\meeran\source\repos\WebApplicationWebAppCheckMarx\obj\Debug\net8.0\WebApplicationWebAppCheckMarx.csproj.AssemblyReference.cache
 C:\Users\meeran\source\repos\WebApplicationWebAppCheckMarx\obj\Debug\net8.0\WebAppli.B43F8D36.Up2Date
+C:\Users\meeran\source\repos\WebApplicationWebAppCheckMarx\bin\Debug\net8.0\AngleSharp.dll
+C:\Users\meeran\source\repos\WebApplicationWebAppCheckMarx\bin\Debug\net8.0\AngleSharp.Css.dll
+C:\Users\meeran\source\repos\WebApplicationWebAppCheckMarx\bin\Debug\net8.0\HtmlSanitizer.dll
+C:\Users\meeran\source\repos\WebApplicationWebAppCheckMarx\obj\Debug\net8.0\WebApplicationWebAppCheckMarx.sourcelink.json
