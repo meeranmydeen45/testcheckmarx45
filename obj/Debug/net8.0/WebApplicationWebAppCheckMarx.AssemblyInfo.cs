@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApplicationWebAppCheckMarx")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bad6ad3b9f68aa312326318354de980610c6f9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04f34a501428f48129088812623226c7f52acd4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApplicationWebAppCheckMarx")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApplicationWebAppCheckMarx")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
