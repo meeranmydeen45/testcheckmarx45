@@ -11,7 +11,7 @@ namespace WebApplicationWebAppCheckMarx.Models
         public decimal? MarkupPercentage { get; set; }
        // public string PONumber { get; set; }
         public byte Status { get; set; }
-        public List<SiteChildRequest> Items { get; set; }
+        //public List<SiteChildRequest> Items { get; set; }
     }
 
     public class SiteChildRequest
